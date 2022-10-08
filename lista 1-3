@@ -1,0 +1,8 @@
+h = float(input('quanto vc ganha por hora? '))
+t = float(input('quantas horas vc trabalha por mês? '))
+sb = h * t
+i = (sb * 8)/100
+sin = (sb * 5)/100
+ir = (sb * 11)/100
+sl = sb - i - sin - ir
+print(f'seu salario liquido é de {sl}')
