@@ -1,0 +1,4 @@
+h = float(input('diga a sua altura:'))
+g = (72.7*h)-52
+i =  (62.1*h)-44.7
+print(f"se voce for homem seu peso ideal  eh de {g} se for mulher {i} " )
