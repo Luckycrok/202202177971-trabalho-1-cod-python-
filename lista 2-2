@@ -1,0 +1,6 @@
+n = float(input('digite um numero: '))
+q = n % 2
+if q == 0:
+  print('é par! show')
+else:
+  print('é impar')
