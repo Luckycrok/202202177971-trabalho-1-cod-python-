@@ -1,0 +1,7 @@
+p = float(input('quanto pesa o peixe? '))
+e = p - 50
+m = e * 4
+if p > 50: 
+  print(f'A multa foi de {m} reais')
+else: 
+  print('não teve multa')
